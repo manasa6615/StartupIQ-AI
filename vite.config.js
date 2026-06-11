@@ -5,7 +5,7 @@ export default defineConfig({
   publicDir: 'public',
   build: {
     outDir: 'dist',
-    minify: 'terser',
+    minify: 'esbuild',
     sourcemap: false
   },
   server: {
